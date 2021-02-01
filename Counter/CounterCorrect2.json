@@ -1,0 +1,17 @@
+{
+  "class": "CounterCorrect2",
+  "harnessParameters": {
+        "invocations": 5
+  },
+  "methods": [
+    {
+      "name": "incrementAndGet",
+      "parameters": [
+       ],
+      "void": false,
+      "readonly": false,
+      "trusted": true,
+      "visibility": "complete"
+    }
+  ]
+}
