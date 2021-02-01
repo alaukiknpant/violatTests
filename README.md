@@ -1,7 +1,7 @@
 # violatTests
 
 
-- Attempts to test simple used defined Abstract Data Types using Violat
+- Attempts to test simple User defined Abstract Data Types using Violat
 
 Commands Used
 
@@ -51,3 +51,13 @@ Error: maven failed with errors:
 [ERROR] /Users/user/code/Capstone/violatTests/Counter/violat-output/tests/src/main/java/xxxx/CounterCorrect2Test8.java:[8,24] ';' expected
 [ERROR] /Users/user/code/Capstone/violatTests/Counter/violat-output/tests/src/main/java/xxxx/CounterCorrect2Test8.java:[9,8] class, interface, or enum expected
 ```
+
+
+### Specs 
+
+- java version "1.8.0_281"
+- Java(TM) SE Runtime Environment (build 1.8.0_281-b09)
+- javac 1.8.0_281
+- Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+- Gradle 6.8.1
+- violat version 1.0.16
