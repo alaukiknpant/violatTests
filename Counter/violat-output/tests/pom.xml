@@ -17,7 +17,7 @@
     </dependency>
     <dependency>
       <groupId>xxx</groupId>
-      <artifactId>CounterCorrect2</artifactId>
+      <artifactId>Counter2</artifactId>
       <version>1.0</version>
     </dependency>
   </dependencies>

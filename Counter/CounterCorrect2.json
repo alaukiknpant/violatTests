@@ -1,5 +1,5 @@
 {
-  "class": "CounterCorrect2",
+  "class": "com.foo.CounterCorrect2",
   "harnessParameters": {
         "invocations": 5
   },

@@ -1,7 +1,7 @@
 {
-  "class": "QueueSynchronizedWrong",
+  "class": "com.foo.QueueSynchronizedWrong",
   "harnessParameters": {
-        "invocations": 5
+        "invocations": 3
   },
   "methods": [
     {
@@ -20,14 +20,6 @@
       "void": false,
       "readonly": true,
       "trusted": true
-    },
-    {
-      "name": "toString",
-      "parameters": [],
-      "void": false,
-      "readonly": true,
-      "trusted": true,
-      "visibility": "complete"
     }
   ]
 }

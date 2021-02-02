@@ -17,7 +17,7 @@
     </dependency>
     <dependency>
       <groupId>xxx</groupId>
-      <artifactId>QueueSynchronizedWrong</artifactId>
+      <artifactId>asd</artifactId>
       <version>1.0</version>
     </dependency>
   </dependencies>
