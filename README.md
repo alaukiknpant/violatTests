@@ -6,48 +6,36 @@
 Commands Used
 
 - javac <NameOfJavaFile.java>
-- jar cvf <NameOfJavaFile.jar> <NameOfJavaFile.class> 
-- violat-validator <NameOfJavaFile.json> --jar <NameOfJavaFile.jar>
+- jar cvf asd.jar com
+- violat-validator <NameOfJavaFile.json> --jar asd.jar
 
 Result
-
-```
+```java
+iMac:Counter user$ violat-validator CounterCorrect2.json --jar asd.jar 
 violat version 1.0.16
 ---
 Unhandled promise rejection:
-Error: maven failed with errors:
-[ERROR] COMPILATION ERROR : 
-[ERROR] /Users/user/code/Capstone/violatTests/Counter/violat-output/tests/src/main/java/xxxx/CounterCorrect2Test9.java:[8,23] '.' expected
-[ERROR] /Users/user/code/Capstone/violatTests/Counter/violat-output/tests/src/main/java/xxxx/CounterCorrect2Test9.java:[8,24] ';' expected
-[ERROR] /Users/user/code/Capstone/violatTests/Counter/violat-output/tests/src/main/java/xxxx/CounterCorrect2Test9.java:[9,8] class, interface, or enum expected
-[ERROR] /Users/user/code/Capstone/violatTests/Counter/violat-output/tests/src/main/java/xxxx/CounterCorrect2Test82.java:[8,23] '.' expected
-[ERROR] /Users/user/code/Capstone/violatTests/Counter/violat-output/tests/src/main/java/xxxx/CounterCorrect2Test82.java:[8,24] ';' expected
-[ERROR] /Users/user/code/Capstone/violatTests/Counter/violat-output/tests/src/main/java/xxxx/CounterCorrect2Test82.java:[9,8] class, interface, or enum expected
-[ERROR] /Users/user/code/Capstone/violatTests/Counter/violat-output/tests/src/main/java/xxxx/CounterCorrect2Test49.java:[8,23] '.' expected
-[ERROR] /Users/user/code/Capstone/violatTests/Counter/violat-output/tests/src/main/java/xxxx/CounterCorrect2Test49.java:[8,24] ';' expected
-[ERROR] /Users/user/code/Capstone/violatTests/Counter/violat-output/tests/src/main/java/xxxx/CounterCorrect2Test49.java:[9,8] class, interface, or enum expected
-[ERROR] /Users/user/code/Capstone/violatTests/Counter/violat-output/tests/src/main/java/xxxx/CounterCorrect2Test96.java:[8,23] '.' expected
-[ERROR] /Users/user/code/Capstone/violatTests/Counter/violat-output/tests/src/main/java/xxxx/CounterCorrect2Test96.java:[8,24] ';' expected
-[ERROR] /Users/user/code/Capstone/violatTests/Counter/violat-output/tests/src/main/java/xxxx/CounterCorrect2Test96.java:[9,8] class, interface, or enum expected
-[ERROR] /Users/user/code/Capstone/violatTests/Counter/violat-output/tests/src/main/java/xxxx/CounterCorrect2Test35.java:[8,23] '.' expected
-[ERROR] /Users/user/code/Capstone/violatTests/Counter/violat-output/tests/src/main/java/xxxx/CounterCorrect2Test35.java:[8,24] ';' expected
-[ERROR] /Users/user/code/Capstone/violatTests/Counter/violat-output/tests/src/main/java/xxxx/CounterCorrect2Test35.java:[9,8] class, interface, or enum expected
-[ERROR] /Users/user/code/Capstone/violatTests/Counter/violat-output/tests/src/main/java/xxxx/CounterCorrect2Test51.java:[8,23] '.' expected
-[ERROR] /Users/user/code/Capstone/violatTests/Counter/violat-output/tests/src/main/java/xxxx/CounterCorrect2Test51.java:[8,24] ';' expected
-[ERROR] /Users/user/code/Capstone/violatTests/Counter/violat-output/tests/src/main/java/xxxx/CounterCorrect2Test51.java:[9,8] class, interface, or enum expected
-[ERROR] /Users/user/code/Capstone/violatTests/Counter/violat-output/tests/src/main/java/xxxx/CounterCorrect2Test19.java:[8,23] '.' expected
-[ERROR] /Users/user/code/Capstone/violatTests/Counter/violat-output/tests/src/main/java/xxxx/CounterCorrect2Test19.java:[8,24] ';' expected
-[ERROR] /Users/user/code/Capstone/violatTests/Counter/violat-output/tests/src/main/java/xxxx/CounterCorrect2Test19.java:[9,8] class, interface, or enum expected
-[ERROR] /Users/user/code/Capstone/violatTests/Counter/violat-output/tests/src/main/java/xxxx/CounterCorrect2Test83.java:[8,23] '.' expected
-[ERROR] /Users/user/code/Capstone/violatTests/Counter/violat-output/tests/src/main/java/xxxx/CounterCorrect2Test83.java:[8,24] ';' expected
-[ERROR] /Users/user/code/Capstone/violatTests/Counter/violat-output/tests/src/main/java/xxxx/CounterCorrect2Test83.java:[9,8] class, interface, or enum expected
-[ERROR] /Users/user/code/Capstone/violatTests/Counter/violat-output/tests/src/main/java/xxxx/CounterCorrect2Test97.java:[8,23] '.' expected
-[ERROR] /Users/user/code/Capstone/violatTests/Counter/violat-output/tests/src/main/java/xxxx/CounterCorrect2Test97.java:[8,24] ';' expected
-[ERROR] /Users/user/code/Capstone/violatTests/Counter/violat-output/tests/src/main/java/xxxx/CounterCorrect2Test97.java:[9,8] class, interface, or enum expected
-[ERROR] /Users/user/code/Capstone/violatTests/Counter/violat-output/tests/src/main/java/xxxx/CounterCorrect2Test52.java:[8,23] '.' expected
-[ERROR] /Users/user/code/Capstone/violatTests/Counter/violat-output/tests/src/main/java/xxxx/CounterCorrect2Test52.java:[8,24] ';' expected
-[ERROR] /Users/user/code/Capstone/violatTests/Counter/violat-output/tests/src/main/java/xxxx/CounterCorrect2Test52.java:[9,8] class, interface, or enum expected
-[ERROR] /Users/user/code/Capstone/violatTests/Counter/violat-output/tests/src/main/java/xxxx/CounterCorrect2Test8.java:[8,23] '.' expected
-[ERROR] /Users/user/code/Capstone/violatTests/Counter/violat-output/tests/src/main/java/xxxx/CounterCorrect2Test8.java:[8,24] ';' expected
-[ERROR] /Users/user/code/Capstone/violatTests/Counter/violat-output/tests/src/main/java/xxxx/CounterCorrect2Test8.java:[9,8] class, interface, or enum expected
+Error: AssertionError [ERR_ASSERTION]: Expected pending result.
+    at JCStressTester.getResults (/usr/local/lib/node_modules/violat/src/java/jcstress/executor.ts:206:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at StaticOutcomesTester.getViolations (/usr/local/lib/node_modules/violat/src/alg/testing.ts:51:20)
+    at RandomTestValidator.getViolations (/usr/local/lib/node_modules/violat/src/alg/validation.ts:63:22)
+    at main (/usr/local/lib/node_modules/violat/src/cli/validator.ts:112:20)
+```
+
+```java
+iMac:QueueSynchronized user$ violat-validator QueueSynchronizedWrong.json --jar asd.jar 
+violat version 1.0.16
+---
+Unhandled promise rejection:
+Error: SyntaxError: Unexpected token Q in JSON at position 1
+    at JCStressTester.getResults (/usr/local/lib/node_modules/violat/src/java/jcstress/executor.ts:206:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at StaticOutcomesTester.getViolations (/usr/local/lib/node_modules/violat/src/alg/testing.ts:51:20)
+    at RandomTestValidator.getViolations (/usr/local/lib/node_modules/violat/src/alg/validation.ts:63:22)
+    at main (/usr/local/lib/node_modules/violat/src/cli/validator.ts:112:20)
+
+```
+    
+    
 ```
