@@ -15,6 +15,11 @@
       <artifactId>jcstress-core</artifactId>
       <version>${jcstress.version}</version>
     </dependency>
+    <dependency>
+      <groupId>xxx</groupId>
+      <artifactId>asd</artifactId>
+      <version>1.0</version>
+    </dependency>
   </dependencies>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
