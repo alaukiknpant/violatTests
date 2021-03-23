@@ -61,3 +61,8 @@ Error: maven failed with errors:
 - Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 - Gradle 6.8.1
 - violat version 1.0.16
+
+
+### Resolution
+
+If the selected ADT is packaged, we can resolve this error.
