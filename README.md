@@ -1,6 +1,11 @@
 # violatTests
 
 
+
+## 1. Compilation error when Java alasses are not packaged
+
+The second error can be found in [this](https://github.com/alaukiknpant/violatTests/tree/package) branch.
+
 - Attempts to test simple User defined Abstract Data Types using Violat
 
 Commands Used
