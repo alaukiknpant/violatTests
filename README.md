@@ -1,5 +1,6 @@
 # violatTests
 
+## 2. Runtime error when the name of the classes are not in the expected format
 
 - Attempts to test simple used defined Abstract Data Types using Violat
 
@@ -37,5 +38,6 @@ Error: SyntaxError: Unexpected token Q in JSON at position 1
 
 ```
     
-    
-```
+### Resolution
+
+- Extend the regular expression that relates to the name of the expected classes
